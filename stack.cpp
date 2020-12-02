@@ -27,7 +27,7 @@ int Stack::isEmpty()
  
 int Stack::isFull()
 {
-    return ( top == 50 ? 1 : 0 );
+    return ( top == 49 ? 1 : 0 );
 }
  
 void Stack::push()
